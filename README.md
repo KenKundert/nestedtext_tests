@@ -61,15 +61,14 @@ before attempting to incorporate these tests into a project, but the basic
 command to do so is shown below.  Note that it's conventional to name the 
 submodule `official_tests`:
 
-  $ git init «new-project»
-  $ cd «new-project»
-  $ git submodule add git@github.com:KenKundert/nestedtext_tests.git 
-  tests/official_tests
+    $ git init «new-project»
+    $ cd «new-project»
+    $ git submodule add git@github.com:KenKundert/nestedtext_tests.git tests/official_tests
 
 To incorporate new tests from the upstream repository:
 
-  $ cd tests/official_tests
-  $ git pull
+    $ cd tests/official_tests
+    $ git pull
 
 ### APIs
 The `api/` directory contains code that parses the test cases into native data 
