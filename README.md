@@ -16,7 +16,7 @@ Each test case consists of a directory with some number of the following files:
   loaded from `load_in.nt`.  The presence of this file indicates that the data 
   structure should be loaded without errors.
 
-- `load_out.err`: A JSON file describing the parameters of the error that 
+- `load_err.json`: A JSON file describing the parameters of the error that 
   should be triggered when attempting to load `load_in.nt`.  Specifically, 
   these parameters include:
 
@@ -91,3 +91,5 @@ include:
 - `renumber_test_cases.py`: Renumber the test cases.  This provides an easy way 
   to keep the numbering logical after adding or removing tests.
 
+For more detailed usage information, run any of these scripts with the `-h` 
+flag.
