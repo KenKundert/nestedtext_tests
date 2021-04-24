@@ -1,0 +1,19 @@
+{
+    "This is a key that is\nspread over multiple lines.\nLike normal multiline strings,\nit can contain any character\nwithout restriction.": "This is its value",
+    "Here is another multi-line key.\nBut in this case it has an empty value.": "",
+    "This is another multi-line key,\nthis one with a multi-line value.": "Here is the multi-line value.\nIt is paired with a multi-line key.",
+    "here is a simple key": "with a simple value",
+    "Here is a multi-line key\nwith a list value.": [
+        "0",
+        "1"
+    ],
+    "Here is a multi-line key\nwith a dictionary value.": {
+        "a": "a",
+        "b": "b"
+    },
+    "here is another simple key": "with another simple value",
+    "This is another multi-line key,\nthis one with a dictionary as a value that has a multi-line key.": {
+        "This is another multi-line key,\nthis one with a multi-line value.": "Here is the multi-line value.\nIt is paired with a multi-line key."
+    },
+    "This a multi-line key with a blank second line.\n": "yabba dabba doo"
+}
