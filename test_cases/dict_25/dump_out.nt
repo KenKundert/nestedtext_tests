@@ -21,6 +21,8 @@ here is a simple key: with a simple value
     a: a
     b: b
 here is another simple key: with another simple value
+: here is a multiline key: that kind of looks a dict item
+    > a multi-line value
 : This is another multi-line key,
 : this one with a dictionary as a value that has a multi-line key.
     : This is another multi-line key,
