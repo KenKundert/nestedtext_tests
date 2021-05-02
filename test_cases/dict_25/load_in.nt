@@ -5,23 +5,23 @@
 : without restriction.
     > This is its value
 
-: Here is another multi-line key.
+: Here is another multiline key.
 : But in this case it has an empty value.
     >
 
-: This is another multi-line key,
-: this one with a multi-line value.
-    > Here is the multi-line value.
-    > It is paired with a multi-line key.
+: This is another multiline key,
+: this one with a multiline value.
+    > Here is the multiline value.
+    > It is paired with a multiline key.
 
 here is a simple key: with a simple value
 
-: Here is a multi-line key
+: Here is a multiline key
 : with a list value.
     - 0
     - 1
 
-: Here is a multi-line key
+: Here is a multiline key
 : with a dictionary value.
     a: a
     b: b
@@ -29,16 +29,16 @@ here is a simple key: with a simple value
 here is another simple key: with another simple value
 
 : here is a multiline key: that kind of looks a dict item
-    > a multi-line value
+    > a multiline value
 
-: This is another multi-line key,
-: this one with a dictionary as a value that has a multi-line key.
-    : This is another multi-line key,
-    : this one with a multi-line value.
-        > Here is the multi-line value.
-        > It is paired with a multi-line key.
+: This is another multiline key,
+: this one with a dictionary as a value that has a multiline key.
+    : This is another multiline key,
+    : this one with a multiline value.
+        > Here is the multiline value.
+        > It is paired with a multiline key.
 
-: This a multi-line key with a blank second line.
+: This a multiline key with a blank second line.
 :
     > yabba dabba doo
 
