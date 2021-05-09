@@ -1,0 +1,3 @@
+[7:0] gain:
+    desc: the gain
+    type: input signed
