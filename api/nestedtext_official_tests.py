@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 
+# imports {{{1
 import json
 from pathlib import Path
 from natsort import natsorted
+
+# globals {{{1
+IGNORE_SUFFIXES = '.swp'.split()
 
 # load_test_cases {{{1
 def load_test_cases(families=None):
@@ -11,7 +15,11 @@ def load_test_cases(families=None):
     test_cases = [
             TestCase(d)
             for d in natsorted(test_dir.iterdir())
-            if not families or any(d.name.startswith(f) for f in families)
+            if (
+                not families
+                or any(d.name.startswith(f) for f in families)
+                or d.suffix not in IGNORE_SUFFIXES
+            )
     ]
     return test_cases
 
