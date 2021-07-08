@@ -5,8 +5,6 @@ import json
 from pathlib import Path
 from natsort import natsorted
 
-# globals {{{1
-IGNORE_SUFFIXES = '.swp'.split()
 
 # load_test_cases {{{1
 def load_test_cases(families=None):
@@ -18,7 +16,6 @@ def load_test_cases(families=None):
             if (
                 not families
                 or any(d.name.startswith(f) for f in families)
-                or d.suffix not in IGNORE_SUFFIXES
             )
     ]
     return test_cases
@@ -125,7 +122,7 @@ class TestCase:
                         'path': dump_in_py,
                         'data': load_py(dump_in_py),
                 }
-            
+
             if dump_out.exists() and dump_err.exists():
                 raise AssertionError(f"{dir}: ambiguous expected result: both '{dump_out.name}' and '{dump_err.name}' are present")
             elif dump_out.exists():

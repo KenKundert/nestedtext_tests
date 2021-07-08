@@ -1,5 +1,5 @@
 {
-  "lineno": 2,
+  "lineno": 1,
   "colno": 6,
-  "message": "expected end of line."
+  "message": "extra character after closing delimiter: ‘}’."
 }

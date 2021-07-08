@@ -1,5 +1,5 @@
 {
-  "lineno": 2,
+  "lineno": 1,
   "colno": 15,
-  "message": "expected ':'."
+  "message": "expected ‘:’, found ‘{’."
 }
