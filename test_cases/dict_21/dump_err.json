@@ -1,4 +1,4 @@
 {
-  "culprit": "3",
-  "message": "unsupported type."
+  "culprit": "peach",
+  "message": "unsupported type (int)."
 }
