@@ -80,6 +80,9 @@ language that isn't represented in the `api/` directory yet, it would be much
 appreciated if you could submit an API (via pull request) and make it easier 
 for others to create implementations.
 
+There are also APIs maintained outside of this source tree:
+* Ruby - [official_tests_api.rb](https://github.com/erikw/nestedtext-ruby/blob/main/test/official_tests_api.rb)
+
 ### Helper scripts
 In addition to the tests themselves, this repository contains a number of 
 helper scripts to make it easier to work with the tests.  These scripts 

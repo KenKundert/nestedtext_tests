@@ -150,8 +150,9 @@ class TestCase:
                 dir / 'README',
                 dir / '__pycache__',
         }
+        other_lang_api_files = {dir / "dump_in.rb"}
         actual_files = set(dir.glob('*'))
-        unexpected_files = actual_files - expected_files
+        unexpected_files = actual_files - (expected_files | other_lang_api_files)
         if unexpected_files:
             raise AssertionError(f"{dir}: found unexpected files: {quoted_join(unexpected_files)}")
 
