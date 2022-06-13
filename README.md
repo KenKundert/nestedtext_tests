@@ -1,7 +1,7 @@
 Official NestedText Test Suite
 ==============================
 
-Version: 3.3.0
+Version: 3.4.0-beta.0
 
 Test cases for NestedText are written in JSON, for the purpose of allowing 
 NestedText implementations in any language to use the same tests.
