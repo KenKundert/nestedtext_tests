@@ -7,8 +7,7 @@
 > the FF character 	ASCII Formfeed (FF)
 > the LF character 
 > 	ASCII Linefeed (LF)
-> the CR character 
-> 	ASCII Carriage Return (CR)
+> the CR character > 	ASCII Carriage Return (CR)
 > the HT character 		ASCII Horizontal Tab (TAB)
 > the VT character 	ASCII Vertical Tab (VT)
 > the ES character 	ASCII escape character as octal value
