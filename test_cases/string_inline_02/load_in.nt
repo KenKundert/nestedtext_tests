@@ -1,0 +1,83 @@
+# All non-line-break white space before or after a value in an inline list is 
+# discarded.
+# This test checks that this is true with all known white space characters.
+-
+    {}
+
+-
+    {a: }
+
+# ASCII spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# tabs surround ‘a’
+-
+    {a:	‘a’		‘a’	}
+
+# no-breck spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# en-quad spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# em-quad spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# en-space spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# em-space spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# three-per-em-space spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# four-per-em-space spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# six-per-em-space spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# figure spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# punctuation spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# thin spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# hair spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# line separators surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# mathematical spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+# ideographic spaces surround ‘a’
+-
+    {a:　‘a’　　‘a’　}
+
+# narrow-non-breaking spaces surround ‘a’
+-
+    {a: ‘a’  ‘a’ }
+
+
+# vim: set noexpandtab
