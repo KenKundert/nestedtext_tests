@@ -1,0 +1,10 @@
+: {http://www.kde.org/standards/kcfg/1.0}kcfgfile
+    >
+: {http://www.kde.org/standards/kcfg/1.0}group
+    : {http://www.kde.org/standards/kcfg/1.0}entry
+        -
+            : {http://www.kde.org/standards/kcfg/1.0}default
+                > 250
+        -
+            : {http://www.kde.org/standards/kcfg/1.0}default
+                > krunner,yakuake
