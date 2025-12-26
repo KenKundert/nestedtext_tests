@@ -1,7 +1,7 @@
 Official NestedText Test Suite
 ==============================
 
-Version: 3.8.dev2
+Version: 3.8
 
 As of NestedText v3.8 the official test suite was replaced by the current test 
 suite.
