@@ -2628,10 +2628,10 @@ typhoon:
     description: error due to dict item following an inline dictionary
     string_in:
         > {cases: {*: {*: {*:*}}}}
-        > checks: *.sv
+        >     checks: *.sv
     load_err:
         message: extra content.
-        line: checks: *.sv
+        line:     checks: *.sv
         lineno: 1
 
 # revolver  {{{1
