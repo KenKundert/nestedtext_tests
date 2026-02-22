@@ -772,7 +772,7 @@
             "load_in": "Og==",
             "load_out": null,
             "load_err": {
-                "message": "indented value must follow multi-line key.",
+                "message": "indented value must follow multiline key.",
                 "line": ":",
                 "lineno": 0
             },
@@ -785,7 +785,7 @@
             "load_in": "OgogICAgOg==",
             "load_out": null,
             "load_err": {
-                "message": "indented value must follow multi-line key.",
+                "message": "indented value must follow multiline key.",
                 "line": "    :",
                 "lineno": 1
             },
@@ -2913,7 +2913,7 @@
             }
         },
         "paragon": {
-            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpLWxpbmUgc3RyaW5ncwo+IGFuZCBsaXN0cyBhdCB0aGUgc2FtZSBsZXZlbAotIG9mIGluZGVudGF0aW9uLg==",
+            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpbGluZSBzdHJpbmdzCj4gYW5kIGxpc3RzIGF0IHRoZSBzYW1lIGxldmVsCi0gb2YgaW5kZW50YXRpb24u",
             "load_out": null,
             "load_err": {
                 "message": "extra content.",
@@ -2928,7 +2928,7 @@
             }
         },
         "chemist": {
-            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpLWxpbmUgc3RyaW5ncwo+IGFuZCBkaWN0aW9uYXJ5IGl0bWVzIGF0IHRoZSBzYW1lIGxldmVsCm9mOiBpbmRlbnRhdGlvbg==",
+            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpbGluZSBzdHJpbmdzCj4gYW5kIGRpY3Rpb25hcnkgaXRtZXMgYXQgdGhlIHNhbWUgbGV2ZWwKb2Y6IGluZGVudGF0aW9u",
             "load_out": null,
             "load_err": {
                 "message": "extra content.",
@@ -2943,7 +2943,7 @@
             }
         },
         "neophyte": {
-            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpLWxpbmUgc3RyaW5ncwo+IHdpdGggdmFyeWluZyBsZXZlbHMKICAgID4gb2YgaW5kZW50YXRpb24u",
+            "load_in": "PiBTaG91bGQgbm90IGFsbG93IG11bHRpbGluZSBzdHJpbmdzCj4gd2l0aCB2YXJ5aW5nIGxldmVscwogICAgPiBvZiBpbmRlbnRhdGlvbi4=",
             "load_out": null,
             "load_err": {
                 "message": "invalid indentation.",
