@@ -749,7 +749,7 @@ balloon:
     description: multiline key without a value
     string_in: :
     load_err:
-        message: indented value must follow multi-line key.
+        message: indented value must follow multiline key.
         line: :
         lineno: 0
 
@@ -760,7 +760,7 @@ lolly:
         > :
         >     :
     load_err:
-        message: indented value must follow multi-line key.
+        message: indented value must follow multiline key.
         line:     :
         lineno: 1
 
@@ -3273,7 +3273,7 @@ academic:
 paragon:
     description: invalid mix of string and list items
     string_in:
-        > > Should not allow multi-line strings
+        > > Should not allow multiline strings
         > > and lists at the same level
         > - of indentation.
     load_err:
@@ -3287,7 +3287,7 @@ paragon:
 chemist:
     description: invalid mix of string and dict items
     string_in:
-        > > Should not allow multi-line strings
+        > > Should not allow multiline strings
         > > and dictionary itmes at the same level
         > of: indentation
     load_err:
@@ -3301,7 +3301,7 @@ chemist:
 neophyte:
     description: invalid indentation
     string_in:
-        > > Should not allow multi-line strings
+        > > Should not allow multiline strings
         > > with varying levels
         >     > of indentation.
     load_err:
